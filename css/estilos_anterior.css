@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+}
+
+header{
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    .logoLink{
+        width: 70px;
+    }
+    .listaNav{    
+        list-style: none;
+        .listaItem{
+            margin-right: 20px;
+                .linkNav{
+            text-decoration: none;
+            font-size: 1.2rem;
+            color: white;
+            }
+        }
+    }
+}
+    
+     
+.seccionTitulo{
+        font-size: 2.5rem;
+        text-align: center;
+        padding-top: 50px;
+
+        .zeldatitulo{
+            width: 1000px;
+            height: 432px;
+            margin: 20px;
+        }
+}
+
+
+
+.textoInicio{
+    font-size: 1,0rem;
+    text-align: center;
+}
+
+.barrafooter{
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    .logofooterlink{
+        width: 70px;
+    }
+    .listafooternav{
+        list-style: none;
+        .listaitemfooter{
+            margin-right: 20px;
+                .linknavfooter{
+            text-decoration: none;
+            font-size: 1.1rem;
+            color: white;
+            }
+        }
+        }
+}
+
+.redessociales{
+    .listaredsociales{
+        .listaitemredsocial{
+            .linknavredsocial{
+                text-decoration: none;
+                font-size: 2.0rem;
+                color: white;
+            }
+        }
+    }
+}
