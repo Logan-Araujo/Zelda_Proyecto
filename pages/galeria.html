@@ -11,51 +11,96 @@
     </head>
     <body>
         <header>
-            <a href="../index.html">
-                <img class="logoLink" src="../assets/img/logo-link.png" alt="logo del personaje link de the legend of zelda">
-            </a>
-            
-            <nav>
-                <ul class="listaNav">
-                    <li class="listaItem"><a class="linkNav" href="../index.html">Inicio</a></li>
-                    <li class="listaItem"><a class="linkNav" href="../pages/galeria.html">Galeria</a></li>
-                    <li class="listaItem"><a class="linkNav" href="../pages/linea_temporal.html">Linea temporal</a></li>
-                    <li class="listaItem"><a class="linkNav" href="../pages/sobre_el_creador.html">Sobre el creador</a></li>
-                    <li class="listaItem"><a class="linkNav" href="../pages/contacto.html">Contacto</a></li>
-                </ul>
-            </nav>
+            <nav class="navbar navbar-expand-lg navbar-dark bgNavegacion">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">
+                    <img src="../assets/img/logo-link.png" alt="logo del personaje link de the legend of zelda" width="80">
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-around fs-4">
+                      <li class="nav-item">
+                        <a class="nav-link active colorGris" aria-current="page" href="../index.html">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active colorBlanco" href="#">Galeria</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link colorGris" href="./linea_temporal.html">Linea temporal</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link colorGris" href="./sobre_el_creador.html">Sobre el creador</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link colorGris" href="./contacto.html">Contacto</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
         </header>
-        <main>
-            <section class="seccionTitulo">
+        <main class="container">
+            <section class="seccionTitulo pb-3">
                 <h1>Galeria</h1>
-                <img src="../assets/img/zelda-majoras-caja.jpg" alt="Caja zelda majoras mask">
-                <img src="../assets/img/primer-zelda.jpg" alt="imagen primer zelda de NES">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab dolorum, ducimus eligendi sit tempore nisi voluptate illum libero eius similique velit corporis minima exercitationem consequuntur deleniti quia, repellat impedit laudantium?Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut vitae facere eius at accusantium aperiam laboriosam, repellat magni consequuntur, praesentium a mollitia totam nisi voluptas dicta odit laudantium voluptatem fugiat!</p>
+                <div class="container">
+                  <div class="row">
+                    <div class="col">
+                      <img src="../assets/img/zelda-wind-waker-portada.jpg" class="img-fluid" alt="...">
+                    </div>
+                    <div class="col">
+                      <img src="../assets/img/zelda-breath-of-the-wild-portada.jpg" class="img-fluid" alt="...">
+                    </div>
+                  <div class="row mt-5">
+                </div>
+                <div class="container">
+                  <div class="row">
+                    <div class="col">
+                      <img src="../assets/img/the-legend-of-zelda-twilight-princess-portada.jpg" class="img-fluid" alt="...">
+                    </div>
+                    <div class="col">
+                      <img src="../assets/img/zelda-skyward-sword-portada.jpg" class="img-fluid" alt="...">
+                    </div>
+                  <div class="row mt-5">
+                </div>
+                <div class="container">
+                  <div class="row">
+                    <div class="col">
+                      <img src="../assets/img/zelda-ocarina-of-time-portada.jpg" class="img-fluid" alt="...">
+                    </div>
+                    <div class="col">
+                      <img src="../assets/img/zelda-majoras-mask-portada.jpg" class="img-fluid" alt="...">
+                    </div>
+                  </div class="row mt-5">
+                </div>
+                <!--<img src="../assets/img/zelda-majoras-caja.jpg" alt="Caja zelda majoras mask">
+                <img src="../assets/img/primer-zelda.jpg" alt="imagen primer zelda de NES">-->
             </section>
         </main>
-        <footer class="barrafooter">
-            <a href="../index.html">
-                <img class="logofooterlink" src="../assets/img/logo-link.png" alt="logo del personaje link de the legend of zelda">
-            </a>
-            <nav>
-                <ul class="listafooternav">
-                    <li class="listaitemfooter"><a class="linknavfooter" href="../index.html">Inicio</a></li>
-                    <li class="listaitemfooter"><a class="linknavfooter" href="../pages/galeria.html">Galeria</a></li>
-                    <li class="listaitemfooter"><a class="linknavfooter" href="../pages/linea_temporal.html">Linea temporal</a></li>
-                    <li class="listaitemfooter"><a class="linknavfooter" href="../pages/sobre_el_creador.html">Sobre el creador</a></li>
-                    <li class="listaitemfooter"><a class="linknavfooter" href="../pages/contacto.html">Contacto</a></li>
-                </ul>
-            </nav>
-            <section  class="redessociales">
-                <nav>
-                    <ul class="listaredsociales">
-                        <li class="listaitemredsocial"><a class="linknavredsocial" href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
-                        <li class="listaitemredsocial"><a class="linknavredsocial" href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
-                        <li class="listaitemredsocial"><a class="linknavredsocial" href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
-                    </ul>
-                </nav>
-            </section>
-        </footer>
+        <footer class="pb-1 pt-2">
+          <a class="nav justify-content-center" href="#">
+              <img class="logofooterlink" src="../assets/img/logo-link.png" alt="logo del personaje link de the legend of zelda">
+          </a>
+          <nav>
+              <ul class="listafooternav nav justify-content-center">
+                  <li class="listaitemfooter"><a class="linknavfooter" href="../index.html">Inicio</a></li>
+                  <li class="listaitemfooter"><a class="linknavfooter" href="#">Galeria</a></li>
+                  <li class="listaitemfooter"><a class="linknavfooter" href="./linea_temporal.html">Linea temporal</a></li>
+                  <li class="listaitemfooter"><a class="linknavfooter" href="./sobre_el_creador.html">Sobre el creador</a></li>
+                  <li class="listaitemfooter"><a class="linknavfooter" href="./contacto.html">Contacto</a></li>
+              </ul>
+          </nav>
+          <section  class="redessociales nav justify-content-center">
+              <nav>
+                  <ul class="listaredsociales  nav gap-4">
+                      <li class="listaitemredsocial"><a class="linknavredsocial" href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+                      <li class="listaitemredsocial"><a class="linknavredsocial" href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                      <li class="listaitemredsocial"><a class="linknavredsocial" href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+                  </ul>
+              </nav>
+          </section>
+      </footer>
         <script src="../js/bootstrap.bundle.min.js"></script>
     </body>
 </html>

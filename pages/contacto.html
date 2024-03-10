@@ -11,70 +11,89 @@
     </head>
     <body>
         <header>
-            <a href="../index.html">
-                <img class="logoLink" src="../assets/img/logo-link.png" alt="logo del personaje link de the legend of zelda">
-            </a>
-            
-            <nav>
-                <ul class="listaNav">
-                    <li class="listaItem"><a class="linkNav" href="../index.html">Inicio</a></li>
-                    <li class="listaItem"><a class="linkNav" href="../pages/galeria.html">Galeria</a></li>
-                    <li class="listaItem"><a class="linkNav" href="../pages/linea_temporal.html">Linea temporal</a></li>
-                    <li class="listaItem"><a class="linkNav" href="../pages/sobre_el_creador.html">Sobre el creador</a></li>
-                    <li class="listaItem"><a class="linkNav" href="../pages/contacto.html">Contacto</a></li>
-                </ul>
-            </nav>
+            <nav class="navbar navbar-expand-lg navbar-dark bgNavegacion">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">
+                    <img src="../assets/img/logo-link.png" alt="logo del personaje link de the legend of zelda" width="80">
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-around fs-4">
+                      <li class="nav-item">
+                        <a class="nav-link active colorGris" aria-current="page" href="../index.html">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link colorGris" href="./galeria.html">Galeria</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link colorGris" href="./linea_temporal.html">Linea temporal</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link colorGris" href="./sobre_el_creador.html">Sobre el creador</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active colorBlanco" href="#">Contacto</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
         </header>
-        <main>
-            <section class="seccionTitulo">
+        <main class="container pt-4">
+            <section class="seccionTitulo fs-4">
                 <h1>Contacto</h1>
-                <h2>Mantente actualizado!</h2>
-                <p>En este espacio podrás registrarte y recibir un correo o un SMS cuando se actualice el sitio web con nueva información.</p><br>
-
-                <form action="../index.html" method="post">
-                    
-                    <label for="nombre">Nombre completo</label> <input type="text" name="nombre" id="nombre" placeholder="Nombre">
-
-                    <label for="email">Correo electronico</label> <input type="email" placeholder="Correo electronico" required id="email">
-
-                    <label for="Telefono">Numero telefonico</label> <input type="tel" name="Telefono" id="Telefono" placeholder=" telefono...">
-
-                    <label for="checkboxHombre">Hombre</label> <input type="checkbox" name="Hombre" id="checkboxHombre">
-                        
-                    <label for="checkboxMujer">Mujer</label> <input type="checkbox" name="mujer" id="checkboxMujer">
-
-                    <label for="checkboxterminosycondiciones">Aceptar terminos y condiciones</label> <input type="checkbox" name="terminosycondiciones" id="checkboxterminosycondiciones">
-                        
-                    <input type="submit" value="Registrarme">
-
-                </form>
-
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13077.90416041994!2d135.756209!3d34.969739!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60010f59e4c66699%3A0x489ba724490b2280!2sOficinas%20Corporativas%20de%20Nintendo!5e0!3m2!1ses-419!2sco!4v1707797195541!5m2!1ses-419!2sco" width="1000" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <h2 class="fs-3 mb-4 mt-4">Mantente actualizado!</h2>
+                <div>
+                  <p>En este espacio podrás registrarte y recibir un correo cuando se actualice el sitio web con nueva información.</p>
+                </div>
+                <div class="row d-flex justify-content-center align-items-center flex-sm-row flex-column-reverse">
+                  <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex align-items-center py-3">
+                  <form class="col-12">
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Correo Electronico</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-3 form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">Terminos y Condiciones</label>
+                    </div>
+                    <button type="submit" class="mb-5 btn btn-primary">Enviar</button>
+                  </form>
+                  </div>
+                </div>
+            </section>
+                <iframe class="mb-5 col-12 order-4 order-sm-5" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13077.90416041994!2d135.756209!3d34.969739!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60010f59e4c66699%3A0x489ba724490b2280!2sOficinas%20Corporativas%20de%20Nintendo!5e0!3m2!1ses-419!2sco!4v1707797195541!5m2!1ses-419!2sco" width="1000" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </section>
         </main>
-        <footer class="barrafooter">
-            <a href="../index.html">
-                <img class="logofooterlink" src="../assets/img/logo-link.png" alt="logo del personaje link de the legend of zelda">
-            </a>
-            <nav>
-                <ul class="listafooternav">
-                    <li class="listaitemfooter"><a class="linknavfooter" href="../index.html">Inicio</a></li>
-                    <li class="listaitemfooter"><a class="linknavfooter" href="../pages/galeria.html">Galeria</a></li>
-                    <li class="listaitemfooter"><a class="linknavfooter" href="../pages/linea_temporal.html">Linea temporal</a></li>
-                    <li class="listaitemfooter"><a class="linknavfooter" href="../pages/sobre_el_creador.html">Sobre el creador</a></li>
-                    <li class="listaitemfooter"><a class="linknavfooter" href="../pages/contacto.html">Contacto</a></li>
-                </ul>
-            </nav>
-            <section  class="redessociales">
-                <nav>
-                    <ul class="listaredsociales">
-                        <li class="listaitemredsocial"><a class="linknavredsocial" href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
-                        <li class="listaitemredsocial"><a class="linknavredsocial" href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
-                        <li class="listaitemredsocial"><a class="linknavredsocial" href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
-                    </ul>
-                </nav>
-            </section>
-        </footer>
+        <footer class="pb-1 pt-2">
+          <a class="nav justify-content-center" href="#">
+              <img class="logofooterlink" src="../assets/img/logo-link.png" alt="logo del personaje link de the legend of zelda">
+          </a>
+          <nav>
+              <ul class="listafooternav nav justify-content-center">
+                  <li class="listaitemfooter"><a class="linknavfooter" href="../index.html">Inicio</a></li>
+                  <li class="listaitemfooter"><a class="linknavfooter" href="./galeria.html">Galeria</a></li>
+                  <li class="listaitemfooter"><a class="linknavfooter" href="./linea_temporal.html">Linea temporal</a></li>
+                  <li class="listaitemfooter"><a class="linknavfooter" href="./sobre_el_creador.html">Sobre el creador</a></li>
+                  <li class="listaitemfooter"><a class="linknavfooter" href="#">Contacto</a></li>
+              </ul>
+          </nav>
+          <section  class="redessociales nav justify-content-center">
+              <nav>
+                  <ul class="listaredsociales  nav gap-4">
+                      <li class="listaitemredsocial"><a class="linknavredsocial" href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+                      <li class="listaitemredsocial"><a class="linknavredsocial" href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                      <li class="listaitemredsocial"><a class="linknavredsocial" href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+                  </ul>
+              </nav>
+          </section>
+      </footer>
         <script src="../js/bootstrap.bundle.min.js"></script>
     </body>
 </html>

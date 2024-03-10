@@ -11,50 +11,115 @@
     </head>
     <body>
         <header>
-            <a href="../index.html">
-                <img class="logoLink" src="../assets/img/logo-link.png" alt="logo del personaje link de the legend of zelda">
-            </a>
-            
-            <nav>
-                <ul class="listaNav">
-                    <li class="listaItem"><a class="linkNav" href="../index.html">Inicio</a></li>
-                    <li class="listaItem"><a class="linkNav" href="../pages/galeria.html">Galeria</a></li>
-                    <li class="listaItem"><a class="linkNav" href="../pages/linea_temporal.html">Linea temporal</a></li>
-                    <li class="listaItem"><a class="linkNav" href="../pages/sobre_el_creador.html">Sobre el creador</a></li>
-                    <li class="listaItem"><a class="linkNav" href="../pages/contacto.html">Contacto</a></li>
-                </ul>
-            </nav>
+            <nav class="navbar navbar-expand-lg navbar-dark bgNavegacion">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">
+                    <img src="../assets/img/logo-link.png" alt="logo del personaje link de the legend of zelda" width="80">
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-around fs-4">
+                      <li class="nav-item">
+                        <a class="nav-link active colorGris" aria-current="page" href="../index.html">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link colorGris" href="./galeria.html">Galeria</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link colorGris" href="./linea_temporal.html">Linea temporal</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active colorBlanco" href="#">Sobre el creador</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link colorGris" href="./contacto.html">Contacto</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
         </header>
-        <main>
+        <main class="container pt-4">
             <section class="seccionTitulo">
                 <h1>Sobre el creador</h1>
-                <img src="../assets/img/shigeru-miyamoto-imagen.jpg" alt="Imagen de Shigeru Miyamoto">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus porro delectus quis perspiciatis molestias autem qui nemo iste omnis cum nihil commodi ducimus et iusto praesentium, ad illum consequuntur neque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, saepe? In incidunt error itaque qui voluptatibus, quisquam voluptates nemo alias commodi ab, sunt odit ducimus porro earum vitae quaerat? Sint.</p>
+                <div class="card mb-3 mt-3">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="../assets/img/shigeru-miyamoto-imagen.jpg" class="img-fluid rounded-start" alt="imagen de shigeru miyamoto">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title fs-3">Shigeru Miyamoto</h5>
+                        <p class="card-text">Shigeru Miyamoto nació el 16 de noviembre de 1952 en Sonobe, una pequeña ciudad en la prefectura de Kioto, Japón. Desde una edad temprana, mostró interés por la exploración al aire libre y por la creación de historias imaginativas. Este amor por la aventura y la creatividad se convertiría en la piedra angular de su carrera en la industria del entretenimiento.</p>
+                          
+                          <p>Después de graduarse de la Universidad de Arte de Kanazawa con una licenciatura en diseño industrial, Miyamoto se unió a Nintendo en 1977 como artista gráfico. Su primera incursión en el mundo de los videojuegos fue en el desarrollo de máquinas recreativas arcade, donde trabajó en títulos como "Radar Scope".</p>
+                          
+                          <p>Sin embargo, fue en 1981 cuando Miyamoto alcanzó la fama con la creación de "Donkey Kong". Este juego no solo introdujo al mundo al icónico personaje de Mario, sino que también estableció muchas de las convenciones del género de plataformas. Desde entonces, Miyamoto ha sido el cerebro detrás de algunas de las franquicias más queridas y exitosas de la industria del videojuego, incluyendo "The Legend of Zelda".</p>
+                          
+                          <p>Uno de los aspectos más destacados de la carrera de Miyamoto es su enfoque en la innovación y la experimentación. Siempre ha buscado formas de desafiar las convenciones establecidas y de sorprender a los jugadores con nuevas ideas y mecánicas de juego. Su filosofía de diseño se centra en la simplicidad, la accesibilidad y la diversión para todos, lo que ha hecho que sus juegos sean aclamados tanto por críticos como por jugadores de todas las edades.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
             </section>
+            <section class="pt-4 pb-4">
+              <h2>Otras de sus creaciones</h2>
+              <div class="row row-cols-1 row-cols-md-3 g-4 pt-4">
+                  <div class="col">
+                    <div class="card h-100">
+                      <img src="../assets/img/animal-crossing-imagen.jpg" class="card-img-top" alt="animal crossing titulo">
+                      <div class="card-body">
+                        <h5 class="card-title">Animal Crossing</h5>
+                        <p class="card-text"></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100">
+                      <img src="../assets/img/super-mario-bros-imagen-titulo.jpg" class="card-img-top" alt="super mario bros titulo">
+                      <div class="card-body">
+                        <h5 class="card-title">Super Mario Bros</h5>
+                        <p class="card-text"></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100">
+                      <img src="../assets/img/ice-climber-imagen.jpg" class="card-img-top" alt="ice climber titulo">
+                      <div class="card-body">
+                        <h5 class="card-title">Star Fox</h5>
+                        <p class="card-text"></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+          </section>
         </main>
-        <footer class="barrafooter">
-            <a href="../index.html">
-                <img class="logofooterlink" src="../assets/img/logo-link.png" alt="logo del personaje link de the legend of zelda">
-            </a>
-            <nav>
-                <ul class="listafooternav">
-                    <li class="listaitemfooter"><a class="linknavfooter" href="../index.html">Inicio</a></li>
-                    <li class="listaitemfooter"><a class="linknavfooter" href="../pages/galeria.html">Galeria</a></li>
-                    <li class="listaitemfooter"><a class="linknavfooter" href="../pages/linea_temporal.html">Linea temporal</a></li>
-                    <li class="listaitemfooter"><a class="linknavfooter" href="../pages/sobre_el_creador.html">Sobre el creador</a></li>
-                    <li class="listaitemfooter"><a class="linknavfooter" href="../pages/contacto.html">Contacto</a></li>
-                </ul>
-            </nav>
-            <section  class="redessociales">
-                <nav>
-                    <ul class="listaredsociales">
-                        <li class="listaitemredsocial"><a class="linknavredsocial" href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
-                        <li class="listaitemredsocial"><a class="linknavredsocial" href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
-                        <li class="listaitemredsocial"><a class="linknavredsocial" href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
-                    </ul>
-                </nav>
-            </section>
-        </footer>
+        <footer class="pb-1 pt-2">
+          <a class="nav justify-content-center" href="#">
+              <img class="logofooterlink" src="../assets/img/logo-link.png" alt="logo del personaje link de the legend of zelda">
+          </a>
+          <nav>
+              <ul class="listafooternav nav justify-content-center">
+                  <li class="listaitemfooter"><a class="linknavfooter" href="../index.html">Inicio</a></li>
+                  <li class="listaitemfooter"><a class="linknavfooter" href="./galeria.html">Galeria</a></li>
+                  <li class="listaitemfooter"><a class="linknavfooter" href="./linea_temporal.html">Linea temporal</a></li>
+                  <li class="listaitemfooter"><a class="linknavfooter" href="#">Sobre el creador</a></li>
+                  <li class="listaitemfooter"><a class="linknavfooter" href="./contacto.html">Contacto</a></li>
+              </ul>
+          </nav>
+          <section  class="redessociales nav justify-content-center">
+              <nav>
+                  <ul class="listaredsociales  nav gap-4">
+                      <li class="listaitemredsocial"><a class="linknavredsocial" href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+                      <li class="listaitemredsocial"><a class="linknavredsocial" href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                      <li class="listaitemredsocial"><a class="linknavredsocial" href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+                  </ul>
+              </nav>
+          </section>
+      </footer>
         <script src="../js/bootstrap.bundle.min.js"></script>
     </body>
 </html>

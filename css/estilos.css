@@ -11,12 +11,25 @@ body{
 }
 
 header{
-    .bgNavegacion{
+    .navbar-dark.bgNavegacion{
         background-color: rgb(255, 0, 0);
-        color: rgb(255, 255, 255);
-    }
-}
-
+        }
+           .navbar-nav{
+               .nav-link.colorGris{
+                    color: rgb(219, 214, 214);
+                    &:hover {
+                        color: white;
+                    }
+                } 
+            }
+                .nav-link.colorBlanco{
+                    color: white;
+                    &:hover {
+                        color: rgb(219, 214, 214);
+                    }
+                }        
+}                
+             
 main{
         text-align: center;
             .textoPrincipal{
@@ -26,9 +39,36 @@ main{
                     margin-bottom: 20px;
                     font-size: 1.3rem;
                 }
-                
-                /*padding-top: 40px;
-                font-size: 1.3rem;*/
-                }
+            }
                        
+}
+
+footer{
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    .logofooterlink{
+         width: 70px;
+    }
+    .listafooternav{
+        list-style: none;
+        .listaitemfooter{
+            margin-right: 20px;
+                .linknavfooter{
+            text-decoration: none;
+            font-size: 1.1rem;
+            color: white;
+            }
+        }
+    }
+        .redessociales{
+            .listaredsociales{
+                .listaitemredsocial{
+                    .linknavredsocial{
+                        text-decoration: none;
+                        font-size: 2.0rem;
+                        color: white;
+                    }
+                }
+            }     
+        }
 }
