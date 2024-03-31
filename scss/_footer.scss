@@ -1,0 +1,29 @@
+footer{
+    background-color: $color-principal;
+    color: $color-blanco;
+    .logofooterlink{
+         width: 70px;
+    }
+    .listafooternav{
+        list-style: none;
+        .listaitemfooter{
+            margin-right: $t-20px;
+                .linknavfooter{
+            text-decoration: none;
+            font-size: 1.1rem;
+            color: $color-blanco;
+            }
+        }
+    }
+        .redessociales{
+            .listaredsociales{
+                .listaitemredsocial{
+                    .linknavredsocial{
+                        text-decoration: none;
+                        font-size: 2.0rem;
+                        color: $color-blanco;
+                    }
+                }
+            }     
+        }
+}

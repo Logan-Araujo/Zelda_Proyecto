@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Outfit", sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+header{
+    .navbar-dark.bgNavegacion{
+        background-color: rgb(255, 0, 0);
+        }
+           .navbar-nav{
+               .nav-link.colorGris{
+                    color: rgb(219, 214, 214);
+                    &:hover {
+                        color: white;
+                    }
+                } 
+            }
+                .nav-link.colorBlanco{
+                    color: white;
+                    &:hover {
+                        color: rgb(219, 214, 214);
+                    }
+                }        
+}                
+             
+main{
+        text-align: center;
+            .textoPrincipal{
+                text-align: left;
+                p{
+                    line-height: 1.5;
+                    margin-bottom: 20px;
+                    font-size: 1.3rem;
+                }
+            }
+                       
+}
+
+footer{
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    .logofooterlink{
+         width: 70px;
+    }
+    .listafooternav{
+        list-style: none;
+        .listaitemfooter{
+            margin-right: 20px;
+                .linknavfooter{
+            text-decoration: none;
+            font-size: 1.1rem;
+            color: white;
+            }
+        }
+    }
+        .redessociales{
+            .listaredsociales{
+                .listaitemredsocial{
+                    .linknavredsocial{
+                        text-decoration: none;
+                        font-size: 2.0rem;
+                        color: white;
+                    }
+                }
+            }     
+        }
+}

@@ -1,74 +1,68 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap');
-
-*{
-    margin: 0;
-    padding: 0;
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    font-family: "Outfit", sans-serif;
-    color: rgb(0, 0, 0);
+body {
+  font-family: "Outfit", sans-serif;
+  color: rgb(0, 0, 0);
 }
 
-header{
-    .navbar-dark.bgNavegacion{
-        background-color: rgb(255, 0, 0);
-        }
-           .navbar-nav{
-               .nav-link.colorGris{
-                    color: rgb(219, 214, 214);
-                    &:hover {
-                        color: white;
-                    }
-                } 
-            }
-                .nav-link.colorBlanco{
-                    color: white;
-                    &:hover {
-                        color: rgb(219, 214, 214);
-                    }
-                }        
-}                
-             
-main{
-        text-align: center;
-            .textoPrincipal{
-                text-align: left;
-                p{
-                    line-height: 1.5;
-                    margin-bottom: 20px;
-                    font-size: 1.3rem;
-                }
-            }
-                       
+header .navbar-dark.bgNavegacion {
+  background-color: rgb(255, 0, 0);
+}
+header .navbar-nav .nav-link.colorGris {
+  color: rgb(219, 214, 214);
+}
+header .navbar-nav .nav-link.colorGris:hover {
+  color: white;
+}
+header .nav-link.colorBlanco {
+  color: white;
+}
+header .nav-link.colorBlanco:hover {
+  color: rgb(219, 214, 214);
 }
 
-footer{
-    background-color: rgb(255, 0, 0);
-    color: rgb(255, 255, 255);
-    .logofooterlink{
-         width: 70px;
-    }
-    .listafooternav{
-        list-style: none;
-        .listaitemfooter{
-            margin-right: 20px;
-                .linknavfooter{
-            text-decoration: none;
-            font-size: 1.1rem;
-            color: white;
-            }
-        }
-    }
-        .redessociales{
-            .listaredsociales{
-                .listaitemredsocial{
-                    .linknavredsocial{
-                        text-decoration: none;
-                        font-size: 2.0rem;
-                        color: white;
-                    }
-                }
-            }     
-        }
+main {
+  text-align: center;
 }
+main .textoPrincipal {
+  text-align: left;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  font-size: 1.3rem;
+}
+
+.fuenteContacto {
+  font-size: 1.3rem;
+}
+
+.grosorFuente {
+  font-weight: 700;
+}
+
+footer {
+  background-color: rgb(255, 0, 0);
+  color: white;
+}
+footer .logofooterlink {
+  width: 70px;
+}
+footer .listafooternav {
+  list-style: none;
+}
+footer .listafooternav .listaitemfooter {
+  margin-right: 20px;
+}
+footer .listafooternav .listaitemfooter .linknavfooter {
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: white;
+}
+footer .redessociales .listaredsociales .listaitemredsocial .linknavredsocial {
+  text-decoration: none;
+  font-size: 2rem;
+  color: white;
+}/*# sourceMappingURL=estilos.css.map */

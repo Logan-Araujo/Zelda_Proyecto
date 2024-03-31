@@ -1,0 +1,19 @@
+header{
+    .navbar-dark.bgNavegacion{
+        background-color: $color-principal;
+        }
+           .navbar-nav{
+               .nav-link.colorGris{
+                    color: $color-gris;
+                    &:hover {
+                        color: $color-blanco;
+                    }
+                } 
+            }
+                .nav-link.colorBlanco{
+                    color: $color-blanco;
+                    &:hover {
+                        color: $color-gris;
+                    }
+                }        
+}
