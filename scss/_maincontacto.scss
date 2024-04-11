@@ -1,4 +1,29 @@
 .fuenteContacto{
     @include cambiarTamanoFuente($t-fuente)
 }
-    
+
+main{
+    .bordeform{
+        border: $color-principal;
+        border-style: solid;
+        border-width: 3px;
+        border-radius: $t-5px;
+    }
+        .estiloboton.colorletraboton{
+            background-color: $color-principal;
+            &:hover{
+                background-color: $color-secundario;
+            }
+            border: $color-principal;
+            padding-bottom : $t-5px;
+            padding-top: $t-5px;
+            padding-left: $t-10px;
+            padding-right: $t-10px;
+            border-width: 2px;
+            border-radius: $t-10px;
+            color: $color-blanco
+        }
+            .bordemapa{
+                border-radius: $t-20px;
+            }
+}
